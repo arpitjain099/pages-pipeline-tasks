@@ -144,11 +144,11 @@ params:
 
 ## Common Values
 
-The following are common values that can be used to set environment varable for pipeline tasks to use. They can be added to tasks via the task's `params` key.
+The following are common values that can be used to set environment variable for pipeline tasks to use. They can be added to tasks via the task's `params` key.
 
-You specify the name of the data value in conjuction with ytt's `template.replace` function.
+You specify the name of the data value in conjunction with ytt's `template.replace` function.
 
-Ie. - Adding the predifined CF environment variables with some additional task specific env vars:
+Ie. - Adding the predefined CF environment variables with some additional task specific env vars:
 
 ```ytt
 task: a-ci-task
